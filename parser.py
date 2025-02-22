@@ -30,12 +30,16 @@ class CodeParser:
     def parse_code(self, code: str, lang: str) -> dict:
         """Return AST in json format"""
         tree = self.parsers[lang].parse(bytes(code, 'utf8'))
-        return self._traverse_node(tree.root_node)
-        
-    def _traverse_node(self, node):
+        return self._traverse_node(tree.root_node, code)
+
+    def _traverse_node(self, node, source_code: str):
+        """Code Paramter"""
         return {
             'type': node.type,
             'start': {'line': node.start_point[0], 'column': node.start_point[1]},
             'end': {'line': node.end_point[0], 'column': node.end_point[1]},
-            'children': [self._traverse_node(child) for child in node.children]
+            'start_byte': node.start_byte,
+            'end_byte': node.end_byte,
+            'source': source_code,          
+            'children': [self._traverse_node(child, source_code) for child in node.children]
         }
