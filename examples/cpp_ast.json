@@ -1,0 +1,2110 @@
+{
+  "file_path": "/data/chats/58wio/workspace/python_template/examples/example_cpp.cpp",
+  "language": "cpp",
+  "ast": {
+    "type": "translation_unit",
+    "start_point": {
+      "row": 0,
+      "column": 0
+    },
+    "end_point": {
+      "row": 25,
+      "column": 1
+    },
+    "children": [
+      {
+        "type": "comment",
+        "start_point": {
+          "row": 0,
+          "column": 0
+        },
+        "end_point": {
+          "row": 0,
+          "column": 18
+        },
+        "children": [],
+        "text": "// example_cpp.cpp"
+      },
+      {
+        "type": "preproc_include",
+        "start_point": {
+          "row": 1,
+          "column": 0
+        },
+        "end_point": {
+          "row": 2,
+          "column": 0
+        },
+        "children": [
+          {
+            "type": "#include",
+            "start_point": {
+              "row": 1,
+              "column": 0
+            },
+            "end_point": {
+              "row": 1,
+              "column": 8
+            },
+            "children": [],
+            "text": "#include"
+          },
+          {
+            "type": "string_literal",
+            "start_point": {
+              "row": 1,
+              "column": 9
+            },
+            "end_point": {
+              "row": 1,
+              "column": 20
+            },
+            "children": [
+              {
+                "type": "\"",
+                "start_point": {
+                  "row": 1,
+                  "column": 9
+                },
+                "end_point": {
+                  "row": 1,
+                  "column": 10
+                },
+                "children": [],
+                "text": "\""
+              },
+              {
+                "type": "string_content",
+                "start_point": {
+                  "row": 1,
+                  "column": 10
+                },
+                "end_point": {
+                  "row": 1,
+                  "column": 19
+                },
+                "children": [],
+                "text": "example.h"
+              },
+              {
+                "type": "\"",
+                "start_point": {
+                  "row": 1,
+                  "column": 19
+                },
+                "end_point": {
+                  "row": 1,
+                  "column": 20
+                },
+                "children": [],
+                "text": "\""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "preproc_include",
+        "start_point": {
+          "row": 2,
+          "column": 0
+        },
+        "end_point": {
+          "row": 3,
+          "column": 0
+        },
+        "children": [
+          {
+            "type": "#include",
+            "start_point": {
+              "row": 2,
+              "column": 0
+            },
+            "end_point": {
+              "row": 2,
+              "column": 8
+            },
+            "children": [],
+            "text": "#include"
+          },
+          {
+            "type": "system_lib_string",
+            "start_point": {
+              "row": 2,
+              "column": 9
+            },
+            "end_point": {
+              "row": 2,
+              "column": 19
+            },
+            "children": [],
+            "text": "<iostream>"
+          }
+        ]
+      },
+      {
+        "type": "function_definition",
+        "start_point": {
+          "row": 4,
+          "column": 0
+        },
+        "end_point": {
+          "row": 4,
+          "column": 39
+        },
+        "children": [
+          {
+            "type": "function_declarator",
+            "start_point": {
+              "row": 4,
+              "column": 0
+            },
+            "end_point": {
+              "row": 4,
+              "column": 24
+            },
+            "children": [
+              {
+                "type": "qualified_identifier",
+                "start_point": {
+                  "row": 4,
+                  "column": 0
+                },
+                "end_point": {
+                  "row": 4,
+                  "column": 22
+                },
+                "children": [
+                  {
+                    "type": "namespace_identifier",
+                    "start_point": {
+                      "row": 4,
+                      "column": 0
+                    },
+                    "end_point": {
+                      "row": 4,
+                      "column": 10
+                    },
+                    "children": [],
+                    "text": "Calculator"
+                  },
+                  {
+                    "type": "::",
+                    "start_point": {
+                      "row": 4,
+                      "column": 10
+                    },
+                    "end_point": {
+                      "row": 4,
+                      "column": 12
+                    },
+                    "children": [],
+                    "text": "::"
+                  },
+                  {
+                    "type": "identifier",
+                    "start_point": {
+                      "row": 4,
+                      "column": 12
+                    },
+                    "end_point": {
+                      "row": 4,
+                      "column": 22
+                    },
+                    "children": [],
+                    "text": "Calculator"
+                  }
+                ]
+              },
+              {
+                "type": "parameter_list",
+                "start_point": {
+                  "row": 4,
+                  "column": 22
+                },
+                "end_point": {
+                  "row": 4,
+                  "column": 24
+                },
+                "children": [
+                  {
+                    "type": "(",
+                    "start_point": {
+                      "row": 4,
+                      "column": 22
+                    },
+                    "end_point": {
+                      "row": 4,
+                      "column": 23
+                    },
+                    "children": [],
+                    "text": "("
+                  },
+                  {
+                    "type": ")",
+                    "start_point": {
+                      "row": 4,
+                      "column": 23
+                    },
+                    "end_point": {
+                      "row": 4,
+                      "column": 24
+                    },
+                    "children": [],
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "field_initializer_list",
+            "start_point": {
+              "row": 4,
+              "column": 25
+            },
+            "end_point": {
+              "row": 4,
+              "column": 36
+            },
+            "children": [
+              {
+                "type": ":",
+                "start_point": {
+                  "row": 4,
+                  "column": 25
+                },
+                "end_point": {
+                  "row": 4,
+                  "column": 26
+                },
+                "children": [],
+                "text": ":"
+              },
+              {
+                "type": "field_initializer",
+                "start_point": {
+                  "row": 4,
+                  "column": 27
+                },
+                "end_point": {
+                  "row": 4,
+                  "column": 36
+                },
+                "children": [
+                  {
+                    "type": "field_identifier",
+                    "start_point": {
+                      "row": 4,
+                      "column": 27
+                    },
+                    "end_point": {
+                      "row": 4,
+                      "column": 33
+                    },
+                    "children": [],
+                    "text": "result"
+                  },
+                  {
+                    "type": "argument_list",
+                    "start_point": {
+                      "row": 4,
+                      "column": 33
+                    },
+                    "end_point": {
+                      "row": 4,
+                      "column": 36
+                    },
+                    "children": [
+                      {
+                        "type": "(",
+                        "start_point": {
+                          "row": 4,
+                          "column": 33
+                        },
+                        "end_point": {
+                          "row": 4,
+                          "column": 34
+                        },
+                        "children": [],
+                        "text": "("
+                      },
+                      {
+                        "type": "number_literal",
+                        "start_point": {
+                          "row": 4,
+                          "column": 34
+                        },
+                        "end_point": {
+                          "row": 4,
+                          "column": 35
+                        },
+                        "children": [],
+                        "text": "0"
+                      },
+                      {
+                        "type": ")",
+                        "start_point": {
+                          "row": 4,
+                          "column": 35
+                        },
+                        "end_point": {
+                          "row": 4,
+                          "column": 36
+                        },
+                        "children": [],
+                        "text": ")"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "compound_statement",
+            "start_point": {
+              "row": 4,
+              "column": 37
+            },
+            "end_point": {
+              "row": 4,
+              "column": 39
+            },
+            "children": [
+              {
+                "type": "{",
+                "start_point": {
+                  "row": 4,
+                  "column": 37
+                },
+                "end_point": {
+                  "row": 4,
+                  "column": 38
+                },
+                "children": [],
+                "text": "{"
+              },
+              {
+                "type": "}",
+                "start_point": {
+                  "row": 4,
+                  "column": 38
+                },
+                "end_point": {
+                  "row": 4,
+                  "column": 39
+                },
+                "children": [],
+                "text": "}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "function_definition",
+        "start_point": {
+          "row": 6,
+          "column": 0
+        },
+        "end_point": {
+          "row": 8,
+          "column": 1
+        },
+        "children": [
+          {
+            "type": "primitive_type",
+            "start_point": {
+              "row": 6,
+              "column": 0
+            },
+            "end_point": {
+              "row": 6,
+              "column": 4
+            },
+            "children": [],
+            "text": "void"
+          },
+          {
+            "type": "function_declarator",
+            "start_point": {
+              "row": 6,
+              "column": 5
+            },
+            "end_point": {
+              "row": 6,
+              "column": 29
+            },
+            "children": [
+              {
+                "type": "qualified_identifier",
+                "start_point": {
+                  "row": 6,
+                  "column": 5
+                },
+                "end_point": {
+                  "row": 6,
+                  "column": 20
+                },
+                "children": [
+                  {
+                    "type": "namespace_identifier",
+                    "start_point": {
+                      "row": 6,
+                      "column": 5
+                    },
+                    "end_point": {
+                      "row": 6,
+                      "column": 15
+                    },
+                    "children": [],
+                    "text": "Calculator"
+                  },
+                  {
+                    "type": "::",
+                    "start_point": {
+                      "row": 6,
+                      "column": 15
+                    },
+                    "end_point": {
+                      "row": 6,
+                      "column": 17
+                    },
+                    "children": [],
+                    "text": "::"
+                  },
+                  {
+                    "type": "identifier",
+                    "start_point": {
+                      "row": 6,
+                      "column": 17
+                    },
+                    "end_point": {
+                      "row": 6,
+                      "column": 20
+                    },
+                    "children": [],
+                    "text": "add"
+                  }
+                ]
+              },
+              {
+                "type": "parameter_list",
+                "start_point": {
+                  "row": 6,
+                  "column": 20
+                },
+                "end_point": {
+                  "row": 6,
+                  "column": 29
+                },
+                "children": [
+                  {
+                    "type": "(",
+                    "start_point": {
+                      "row": 6,
+                      "column": 20
+                    },
+                    "end_point": {
+                      "row": 6,
+                      "column": 21
+                    },
+                    "children": [],
+                    "text": "("
+                  },
+                  {
+                    "type": "parameter_declaration",
+                    "start_point": {
+                      "row": 6,
+                      "column": 21
+                    },
+                    "end_point": {
+                      "row": 6,
+                      "column": 28
+                    },
+                    "children": [
+                      {
+                        "type": "primitive_type",
+                        "start_point": {
+                          "row": 6,
+                          "column": 21
+                        },
+                        "end_point": {
+                          "row": 6,
+                          "column": 24
+                        },
+                        "children": [],
+                        "text": "int"
+                      },
+                      {
+                        "type": "identifier",
+                        "start_point": {
+                          "row": 6,
+                          "column": 25
+                        },
+                        "end_point": {
+                          "row": 6,
+                          "column": 28
+                        },
+                        "children": [],
+                        "text": "num"
+                      }
+                    ]
+                  },
+                  {
+                    "type": ")",
+                    "start_point": {
+                      "row": 6,
+                      "column": 28
+                    },
+                    "end_point": {
+                      "row": 6,
+                      "column": 29
+                    },
+                    "children": [],
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "compound_statement",
+            "start_point": {
+              "row": 6,
+              "column": 30
+            },
+            "end_point": {
+              "row": 8,
+              "column": 1
+            },
+            "children": [
+              {
+                "type": "{",
+                "start_point": {
+                  "row": 6,
+                  "column": 30
+                },
+                "end_point": {
+                  "row": 6,
+                  "column": 31
+                },
+                "children": [],
+                "text": "{"
+              },
+              {
+                "type": "expression_statement",
+                "start_point": {
+                  "row": 7,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 7,
+                  "column": 18
+                },
+                "children": [
+                  {
+                    "type": "assignment_expression",
+                    "start_point": {
+                      "row": 7,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 7,
+                      "column": 17
+                    },
+                    "children": [
+                      {
+                        "type": "identifier",
+                        "start_point": {
+                          "row": 7,
+                          "column": 4
+                        },
+                        "end_point": {
+                          "row": 7,
+                          "column": 10
+                        },
+                        "children": [],
+                        "text": "result"
+                      },
+                      {
+                        "type": "+=",
+                        "start_point": {
+                          "row": 7,
+                          "column": 11
+                        },
+                        "end_point": {
+                          "row": 7,
+                          "column": 13
+                        },
+                        "children": [],
+                        "text": "+="
+                      },
+                      {
+                        "type": "identifier",
+                        "start_point": {
+                          "row": 7,
+                          "column": 14
+                        },
+                        "end_point": {
+                          "row": 7,
+                          "column": 17
+                        },
+                        "children": [],
+                        "text": "num"
+                      }
+                    ]
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 7,
+                      "column": 17
+                    },
+                    "end_point": {
+                      "row": 7,
+                      "column": 18
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "}",
+                "start_point": {
+                  "row": 8,
+                  "column": 0
+                },
+                "end_point": {
+                  "row": 8,
+                  "column": 1
+                },
+                "children": [],
+                "text": "}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "function_definition",
+        "start_point": {
+          "row": 10,
+          "column": 0
+        },
+        "end_point": {
+          "row": 12,
+          "column": 1
+        },
+        "children": [
+          {
+            "type": "primitive_type",
+            "start_point": {
+              "row": 10,
+              "column": 0
+            },
+            "end_point": {
+              "row": 10,
+              "column": 4
+            },
+            "children": [],
+            "text": "void"
+          },
+          {
+            "type": "function_declarator",
+            "start_point": {
+              "row": 10,
+              "column": 5
+            },
+            "end_point": {
+              "row": 10,
+              "column": 34
+            },
+            "children": [
+              {
+                "type": "qualified_identifier",
+                "start_point": {
+                  "row": 10,
+                  "column": 5
+                },
+                "end_point": {
+                  "row": 10,
+                  "column": 25
+                },
+                "children": [
+                  {
+                    "type": "namespace_identifier",
+                    "start_point": {
+                      "row": 10,
+                      "column": 5
+                    },
+                    "end_point": {
+                      "row": 10,
+                      "column": 15
+                    },
+                    "children": [],
+                    "text": "Calculator"
+                  },
+                  {
+                    "type": "::",
+                    "start_point": {
+                      "row": 10,
+                      "column": 15
+                    },
+                    "end_point": {
+                      "row": 10,
+                      "column": 17
+                    },
+                    "children": [],
+                    "text": "::"
+                  },
+                  {
+                    "type": "identifier",
+                    "start_point": {
+                      "row": 10,
+                      "column": 17
+                    },
+                    "end_point": {
+                      "row": 10,
+                      "column": 25
+                    },
+                    "children": [],
+                    "text": "subtract"
+                  }
+                ]
+              },
+              {
+                "type": "parameter_list",
+                "start_point": {
+                  "row": 10,
+                  "column": 25
+                },
+                "end_point": {
+                  "row": 10,
+                  "column": 34
+                },
+                "children": [
+                  {
+                    "type": "(",
+                    "start_point": {
+                      "row": 10,
+                      "column": 25
+                    },
+                    "end_point": {
+                      "row": 10,
+                      "column": 26
+                    },
+                    "children": [],
+                    "text": "("
+                  },
+                  {
+                    "type": "parameter_declaration",
+                    "start_point": {
+                      "row": 10,
+                      "column": 26
+                    },
+                    "end_point": {
+                      "row": 10,
+                      "column": 33
+                    },
+                    "children": [
+                      {
+                        "type": "primitive_type",
+                        "start_point": {
+                          "row": 10,
+                          "column": 26
+                        },
+                        "end_point": {
+                          "row": 10,
+                          "column": 29
+                        },
+                        "children": [],
+                        "text": "int"
+                      },
+                      {
+                        "type": "identifier",
+                        "start_point": {
+                          "row": 10,
+                          "column": 30
+                        },
+                        "end_point": {
+                          "row": 10,
+                          "column": 33
+                        },
+                        "children": [],
+                        "text": "num"
+                      }
+                    ]
+                  },
+                  {
+                    "type": ")",
+                    "start_point": {
+                      "row": 10,
+                      "column": 33
+                    },
+                    "end_point": {
+                      "row": 10,
+                      "column": 34
+                    },
+                    "children": [],
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "compound_statement",
+            "start_point": {
+              "row": 10,
+              "column": 35
+            },
+            "end_point": {
+              "row": 12,
+              "column": 1
+            },
+            "children": [
+              {
+                "type": "{",
+                "start_point": {
+                  "row": 10,
+                  "column": 35
+                },
+                "end_point": {
+                  "row": 10,
+                  "column": 36
+                },
+                "children": [],
+                "text": "{"
+              },
+              {
+                "type": "expression_statement",
+                "start_point": {
+                  "row": 11,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 11,
+                  "column": 18
+                },
+                "children": [
+                  {
+                    "type": "assignment_expression",
+                    "start_point": {
+                      "row": 11,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 11,
+                      "column": 17
+                    },
+                    "children": [
+                      {
+                        "type": "identifier",
+                        "start_point": {
+                          "row": 11,
+                          "column": 4
+                        },
+                        "end_point": {
+                          "row": 11,
+                          "column": 10
+                        },
+                        "children": [],
+                        "text": "result"
+                      },
+                      {
+                        "type": "-=",
+                        "start_point": {
+                          "row": 11,
+                          "column": 11
+                        },
+                        "end_point": {
+                          "row": 11,
+                          "column": 13
+                        },
+                        "children": [],
+                        "text": "-="
+                      },
+                      {
+                        "type": "identifier",
+                        "start_point": {
+                          "row": 11,
+                          "column": 14
+                        },
+                        "end_point": {
+                          "row": 11,
+                          "column": 17
+                        },
+                        "children": [],
+                        "text": "num"
+                      }
+                    ]
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 11,
+                      "column": 17
+                    },
+                    "end_point": {
+                      "row": 11,
+                      "column": 18
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "}",
+                "start_point": {
+                  "row": 12,
+                  "column": 0
+                },
+                "end_point": {
+                  "row": 12,
+                  "column": 1
+                },
+                "children": [],
+                "text": "}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "function_definition",
+        "start_point": {
+          "row": 14,
+          "column": 0
+        },
+        "end_point": {
+          "row": 16,
+          "column": 1
+        },
+        "children": [
+          {
+            "type": "primitive_type",
+            "start_point": {
+              "row": 14,
+              "column": 0
+            },
+            "end_point": {
+              "row": 14,
+              "column": 3
+            },
+            "children": [],
+            "text": "int"
+          },
+          {
+            "type": "function_declarator",
+            "start_point": {
+              "row": 14,
+              "column": 4
+            },
+            "end_point": {
+              "row": 14,
+              "column": 33
+            },
+            "children": [
+              {
+                "type": "qualified_identifier",
+                "start_point": {
+                  "row": 14,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 14,
+                  "column": 25
+                },
+                "children": [
+                  {
+                    "type": "namespace_identifier",
+                    "start_point": {
+                      "row": 14,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 14,
+                      "column": 14
+                    },
+                    "children": [],
+                    "text": "Calculator"
+                  },
+                  {
+                    "type": "::",
+                    "start_point": {
+                      "row": 14,
+                      "column": 14
+                    },
+                    "end_point": {
+                      "row": 14,
+                      "column": 16
+                    },
+                    "children": [],
+                    "text": "::"
+                  },
+                  {
+                    "type": "identifier",
+                    "start_point": {
+                      "row": 14,
+                      "column": 16
+                    },
+                    "end_point": {
+                      "row": 14,
+                      "column": 25
+                    },
+                    "children": [],
+                    "text": "getResult"
+                  }
+                ]
+              },
+              {
+                "type": "parameter_list",
+                "start_point": {
+                  "row": 14,
+                  "column": 25
+                },
+                "end_point": {
+                  "row": 14,
+                  "column": 27
+                },
+                "children": [
+                  {
+                    "type": "(",
+                    "start_point": {
+                      "row": 14,
+                      "column": 25
+                    },
+                    "end_point": {
+                      "row": 14,
+                      "column": 26
+                    },
+                    "children": [],
+                    "text": "("
+                  },
+                  {
+                    "type": ")",
+                    "start_point": {
+                      "row": 14,
+                      "column": 26
+                    },
+                    "end_point": {
+                      "row": 14,
+                      "column": 27
+                    },
+                    "children": [],
+                    "text": ")"
+                  }
+                ]
+              },
+              {
+                "type": "type_qualifier",
+                "start_point": {
+                  "row": 14,
+                  "column": 28
+                },
+                "end_point": {
+                  "row": 14,
+                  "column": 33
+                },
+                "children": [
+                  {
+                    "type": "const",
+                    "start_point": {
+                      "row": 14,
+                      "column": 28
+                    },
+                    "end_point": {
+                      "row": 14,
+                      "column": 33
+                    },
+                    "children": [],
+                    "text": "const"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "compound_statement",
+            "start_point": {
+              "row": 14,
+              "column": 34
+            },
+            "end_point": {
+              "row": 16,
+              "column": 1
+            },
+            "children": [
+              {
+                "type": "{",
+                "start_point": {
+                  "row": 14,
+                  "column": 34
+                },
+                "end_point": {
+                  "row": 14,
+                  "column": 35
+                },
+                "children": [],
+                "text": "{"
+              },
+              {
+                "type": "return_statement",
+                "start_point": {
+                  "row": 15,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 15,
+                  "column": 18
+                },
+                "children": [
+                  {
+                    "type": "return",
+                    "start_point": {
+                      "row": 15,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 15,
+                      "column": 10
+                    },
+                    "children": [],
+                    "text": "return"
+                  },
+                  {
+                    "type": "identifier",
+                    "start_point": {
+                      "row": 15,
+                      "column": 11
+                    },
+                    "end_point": {
+                      "row": 15,
+                      "column": 17
+                    },
+                    "children": [],
+                    "text": "result"
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 15,
+                      "column": 17
+                    },
+                    "end_point": {
+                      "row": 15,
+                      "column": 18
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "}",
+                "start_point": {
+                  "row": 16,
+                  "column": 0
+                },
+                "end_point": {
+                  "row": 16,
+                  "column": 1
+                },
+                "children": [],
+                "text": "}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "function_definition",
+        "start_point": {
+          "row": 18,
+          "column": 0
+        },
+        "end_point": {
+          "row": 25,
+          "column": 1
+        },
+        "children": [
+          {
+            "type": "primitive_type",
+            "start_point": {
+              "row": 18,
+              "column": 0
+            },
+            "end_point": {
+              "row": 18,
+              "column": 3
+            },
+            "children": [],
+            "text": "int"
+          },
+          {
+            "type": "function_declarator",
+            "start_point": {
+              "row": 18,
+              "column": 4
+            },
+            "end_point": {
+              "row": 18,
+              "column": 10
+            },
+            "children": [
+              {
+                "type": "identifier",
+                "start_point": {
+                  "row": 18,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 18,
+                  "column": 8
+                },
+                "children": [],
+                "text": "main"
+              },
+              {
+                "type": "parameter_list",
+                "start_point": {
+                  "row": 18,
+                  "column": 8
+                },
+                "end_point": {
+                  "row": 18,
+                  "column": 10
+                },
+                "children": [
+                  {
+                    "type": "(",
+                    "start_point": {
+                      "row": 18,
+                      "column": 8
+                    },
+                    "end_point": {
+                      "row": 18,
+                      "column": 9
+                    },
+                    "children": [],
+                    "text": "("
+                  },
+                  {
+                    "type": ")",
+                    "start_point": {
+                      "row": 18,
+                      "column": 9
+                    },
+                    "end_point": {
+                      "row": 18,
+                      "column": 10
+                    },
+                    "children": [],
+                    "text": ")"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "compound_statement",
+            "start_point": {
+              "row": 18,
+              "column": 11
+            },
+            "end_point": {
+              "row": 25,
+              "column": 1
+            },
+            "children": [
+              {
+                "type": "{",
+                "start_point": {
+                  "row": 18,
+                  "column": 11
+                },
+                "end_point": {
+                  "row": 18,
+                  "column": 12
+                },
+                "children": [],
+                "text": "{"
+              },
+              {
+                "type": "declaration",
+                "start_point": {
+                  "row": 19,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 19,
+                  "column": 20
+                },
+                "children": [
+                  {
+                    "type": "type_identifier",
+                    "start_point": {
+                      "row": 19,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 19,
+                      "column": 14
+                    },
+                    "children": [],
+                    "text": "Calculator"
+                  },
+                  {
+                    "type": "identifier",
+                    "start_point": {
+                      "row": 19,
+                      "column": 15
+                    },
+                    "end_point": {
+                      "row": 19,
+                      "column": 19
+                    },
+                    "children": [],
+                    "text": "calc"
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 19,
+                      "column": 19
+                    },
+                    "end_point": {
+                      "row": 19,
+                      "column": 20
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "expression_statement",
+                "start_point": {
+                  "row": 20,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 20,
+                  "column": 17
+                },
+                "children": [
+                  {
+                    "type": "call_expression",
+                    "start_point": {
+                      "row": 20,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 20,
+                      "column": 16
+                    },
+                    "children": [
+                      {
+                        "type": "field_expression",
+                        "start_point": {
+                          "row": 20,
+                          "column": 4
+                        },
+                        "end_point": {
+                          "row": 20,
+                          "column": 12
+                        },
+                        "children": [
+                          {
+                            "type": "identifier",
+                            "start_point": {
+                              "row": 20,
+                              "column": 4
+                            },
+                            "end_point": {
+                              "row": 20,
+                              "column": 8
+                            },
+                            "children": [],
+                            "text": "calc"
+                          },
+                          {
+                            "type": ".",
+                            "start_point": {
+                              "row": 20,
+                              "column": 8
+                            },
+                            "end_point": {
+                              "row": 20,
+                              "column": 9
+                            },
+                            "children": [],
+                            "text": "."
+                          },
+                          {
+                            "type": "field_identifier",
+                            "start_point": {
+                              "row": 20,
+                              "column": 9
+                            },
+                            "end_point": {
+                              "row": 20,
+                              "column": 12
+                            },
+                            "children": [],
+                            "text": "add"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "argument_list",
+                        "start_point": {
+                          "row": 20,
+                          "column": 12
+                        },
+                        "end_point": {
+                          "row": 20,
+                          "column": 16
+                        },
+                        "children": [
+                          {
+                            "type": "(",
+                            "start_point": {
+                              "row": 20,
+                              "column": 12
+                            },
+                            "end_point": {
+                              "row": 20,
+                              "column": 13
+                            },
+                            "children": [],
+                            "text": "("
+                          },
+                          {
+                            "type": "number_literal",
+                            "start_point": {
+                              "row": 20,
+                              "column": 13
+                            },
+                            "end_point": {
+                              "row": 20,
+                              "column": 15
+                            },
+                            "children": [],
+                            "text": "10"
+                          },
+                          {
+                            "type": ")",
+                            "start_point": {
+                              "row": 20,
+                              "column": 15
+                            },
+                            "end_point": {
+                              "row": 20,
+                              "column": 16
+                            },
+                            "children": [],
+                            "text": ")"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 20,
+                      "column": 16
+                    },
+                    "end_point": {
+                      "row": 20,
+                      "column": 17
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "expression_statement",
+                "start_point": {
+                  "row": 21,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 21,
+                  "column": 21
+                },
+                "children": [
+                  {
+                    "type": "call_expression",
+                    "start_point": {
+                      "row": 21,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 21,
+                      "column": 20
+                    },
+                    "children": [
+                      {
+                        "type": "field_expression",
+                        "start_point": {
+                          "row": 21,
+                          "column": 4
+                        },
+                        "end_point": {
+                          "row": 21,
+                          "column": 17
+                        },
+                        "children": [
+                          {
+                            "type": "identifier",
+                            "start_point": {
+                              "row": 21,
+                              "column": 4
+                            },
+                            "end_point": {
+                              "row": 21,
+                              "column": 8
+                            },
+                            "children": [],
+                            "text": "calc"
+                          },
+                          {
+                            "type": ".",
+                            "start_point": {
+                              "row": 21,
+                              "column": 8
+                            },
+                            "end_point": {
+                              "row": 21,
+                              "column": 9
+                            },
+                            "children": [],
+                            "text": "."
+                          },
+                          {
+                            "type": "field_identifier",
+                            "start_point": {
+                              "row": 21,
+                              "column": 9
+                            },
+                            "end_point": {
+                              "row": 21,
+                              "column": 17
+                            },
+                            "children": [],
+                            "text": "subtract"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "argument_list",
+                        "start_point": {
+                          "row": 21,
+                          "column": 17
+                        },
+                        "end_point": {
+                          "row": 21,
+                          "column": 20
+                        },
+                        "children": [
+                          {
+                            "type": "(",
+                            "start_point": {
+                              "row": 21,
+                              "column": 17
+                            },
+                            "end_point": {
+                              "row": 21,
+                              "column": 18
+                            },
+                            "children": [],
+                            "text": "("
+                          },
+                          {
+                            "type": "number_literal",
+                            "start_point": {
+                              "row": 21,
+                              "column": 18
+                            },
+                            "end_point": {
+                              "row": 21,
+                              "column": 19
+                            },
+                            "children": [],
+                            "text": "5"
+                          },
+                          {
+                            "type": ")",
+                            "start_point": {
+                              "row": 21,
+                              "column": 19
+                            },
+                            "end_point": {
+                              "row": 21,
+                              "column": 20
+                            },
+                            "children": [],
+                            "text": ")"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 21,
+                      "column": 20
+                    },
+                    "end_point": {
+                      "row": 21,
+                      "column": 21
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "expression_statement",
+                "start_point": {
+                  "row": 23,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 23,
+                  "column": 61
+                },
+                "children": [
+                  {
+                    "type": "binary_expression",
+                    "start_point": {
+                      "row": 23,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 23,
+                      "column": 60
+                    },
+                    "children": [
+                      {
+                        "type": "binary_expression",
+                        "start_point": {
+                          "row": 23,
+                          "column": 4
+                        },
+                        "end_point": {
+                          "row": 23,
+                          "column": 47
+                        },
+                        "children": [
+                          {
+                            "type": "binary_expression",
+                            "start_point": {
+                              "row": 23,
+                              "column": 4
+                            },
+                            "end_point": {
+                              "row": 23,
+                              "column": 27
+                            },
+                            "children": [
+                              {
+                                "type": "qualified_identifier",
+                                "start_point": {
+                                  "row": 23,
+                                  "column": 4
+                                },
+                                "end_point": {
+                                  "row": 23,
+                                  "column": 13
+                                },
+                                "children": [
+                                  {
+                                    "type": "namespace_identifier",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 4
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 7
+                                    },
+                                    "children": [],
+                                    "text": "std"
+                                  },
+                                  {
+                                    "type": "::",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 7
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 9
+                                    },
+                                    "children": [],
+                                    "text": "::"
+                                  },
+                                  {
+                                    "type": "identifier",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 9
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 13
+                                    },
+                                    "children": [],
+                                    "text": "cout"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "<<",
+                                "start_point": {
+                                  "row": 23,
+                                  "column": 14
+                                },
+                                "end_point": {
+                                  "row": 23,
+                                  "column": 16
+                                },
+                                "children": [],
+                                "text": "<<"
+                              },
+                              {
+                                "type": "string_literal",
+                                "start_point": {
+                                  "row": 23,
+                                  "column": 17
+                                },
+                                "end_point": {
+                                  "row": 23,
+                                  "column": 27
+                                },
+                                "children": [
+                                  {
+                                    "type": "\"",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 17
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 18
+                                    },
+                                    "children": [],
+                                    "text": "\""
+                                  },
+                                  {
+                                    "type": "string_content",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 18
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 26
+                                    },
+                                    "children": [],
+                                    "text": "Result: "
+                                  },
+                                  {
+                                    "type": "\"",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 26
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 27
+                                    },
+                                    "children": [],
+                                    "text": "\""
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "<<",
+                            "start_point": {
+                              "row": 23,
+                              "column": 28
+                            },
+                            "end_point": {
+                              "row": 23,
+                              "column": 30
+                            },
+                            "children": [],
+                            "text": "<<"
+                          },
+                          {
+                            "type": "call_expression",
+                            "start_point": {
+                              "row": 23,
+                              "column": 31
+                            },
+                            "end_point": {
+                              "row": 23,
+                              "column": 47
+                            },
+                            "children": [
+                              {
+                                "type": "field_expression",
+                                "start_point": {
+                                  "row": 23,
+                                  "column": 31
+                                },
+                                "end_point": {
+                                  "row": 23,
+                                  "column": 45
+                                },
+                                "children": [
+                                  {
+                                    "type": "identifier",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 31
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 35
+                                    },
+                                    "children": [],
+                                    "text": "calc"
+                                  },
+                                  {
+                                    "type": ".",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 35
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 36
+                                    },
+                                    "children": [],
+                                    "text": "."
+                                  },
+                                  {
+                                    "type": "field_identifier",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 36
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 45
+                                    },
+                                    "children": [],
+                                    "text": "getResult"
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "argument_list",
+                                "start_point": {
+                                  "row": 23,
+                                  "column": 45
+                                },
+                                "end_point": {
+                                  "row": 23,
+                                  "column": 47
+                                },
+                                "children": [
+                                  {
+                                    "type": "(",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 45
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 46
+                                    },
+                                    "children": [],
+                                    "text": "("
+                                  },
+                                  {
+                                    "type": ")",
+                                    "start_point": {
+                                      "row": 23,
+                                      "column": 46
+                                    },
+                                    "end_point": {
+                                      "row": 23,
+                                      "column": 47
+                                    },
+                                    "children": [],
+                                    "text": ")"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "<<",
+                        "start_point": {
+                          "row": 23,
+                          "column": 48
+                        },
+                        "end_point": {
+                          "row": 23,
+                          "column": 50
+                        },
+                        "children": [],
+                        "text": "<<"
+                      },
+                      {
+                        "type": "qualified_identifier",
+                        "start_point": {
+                          "row": 23,
+                          "column": 51
+                        },
+                        "end_point": {
+                          "row": 23,
+                          "column": 60
+                        },
+                        "children": [
+                          {
+                            "type": "namespace_identifier",
+                            "start_point": {
+                              "row": 23,
+                              "column": 51
+                            },
+                            "end_point": {
+                              "row": 23,
+                              "column": 54
+                            },
+                            "children": [],
+                            "text": "std"
+                          },
+                          {
+                            "type": "::",
+                            "start_point": {
+                              "row": 23,
+                              "column": 54
+                            },
+                            "end_point": {
+                              "row": 23,
+                              "column": 56
+                            },
+                            "children": [],
+                            "text": "::"
+                          },
+                          {
+                            "type": "identifier",
+                            "start_point": {
+                              "row": 23,
+                              "column": 56
+                            },
+                            "end_point": {
+                              "row": 23,
+                              "column": 60
+                            },
+                            "children": [],
+                            "text": "endl"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 23,
+                      "column": 60
+                    },
+                    "end_point": {
+                      "row": 23,
+                      "column": 61
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "return_statement",
+                "start_point": {
+                  "row": 24,
+                  "column": 4
+                },
+                "end_point": {
+                  "row": 24,
+                  "column": 13
+                },
+                "children": [
+                  {
+                    "type": "return",
+                    "start_point": {
+                      "row": 24,
+                      "column": 4
+                    },
+                    "end_point": {
+                      "row": 24,
+                      "column": 10
+                    },
+                    "children": [],
+                    "text": "return"
+                  },
+                  {
+                    "type": "number_literal",
+                    "start_point": {
+                      "row": 24,
+                      "column": 11
+                    },
+                    "end_point": {
+                      "row": 24,
+                      "column": 12
+                    },
+                    "children": [],
+                    "text": "0"
+                  },
+                  {
+                    "type": ";",
+                    "start_point": {
+                      "row": 24,
+                      "column": 12
+                    },
+                    "end_point": {
+                      "row": 24,
+                      "column": 13
+                    },
+                    "children": [],
+                    "text": ";"
+                  }
+                ]
+              },
+              {
+                "type": "}",
+                "start_point": {
+                  "row": 25,
+                  "column": 0
+                },
+                "end_point": {
+                  "row": 25,
+                  "column": 1
+                },
+                "children": [],
+                "text": "}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

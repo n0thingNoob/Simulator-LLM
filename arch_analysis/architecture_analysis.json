@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "relationships": [],
+  "control_flow_patterns": [],
+  "data_flow_patterns": [],
+  "metrics": {
+    "total_components": 0,
+    "total_relationships": 0,
+    "control_flow_count": 0,
+    "data_flow_count": 0
+  },
+  "metadata": {
+    "description": "Architecture Simulator Analysis",
+    "version": "1.0",
+    "summary": {
+      "components": 0,
+      "relationships": 0,
+      "control_flow_patterns": 0,
+      "data_flow_patterns": 0
+    }
+  }
+}
